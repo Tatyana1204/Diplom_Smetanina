@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(224, 191, 150, 0.541);
+}
+
+.ism-slider {
+    padding-top: -50px !important;
+}
+
+.container-fluid {
+    display: block;
+    padding-top: 50px;
+
+}
+.category{
+    text-decoration: none;
+    color: bisque;
+}
+.category{
+    text-decoration: none;
+    color: red;
+}
+.category:hover{
+    color:black;
+}
+.categorycart{
+    text-decoration: none;
+    color: #C9836D;
+}
+.categorycart:hover{
+    text-decoration: none;
+    color: #C9836D;
+}
+.categoryblock{
+    display: block;
+    padding-top: 50px;
+    justify-content: center;
+    padding-left: 350px;
+}
+.categorybutton{
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #C9836D;
+}
+.categorybutton:hover{
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #C9836D;
+    color: bisque;
+}

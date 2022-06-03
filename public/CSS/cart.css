@@ -1,0 +1,135 @@
+.list-group-item {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.cart-header {
+    display: flex;
+    position: relative;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-card {
+    display: flex;
+}
+
+.cart-card-header {
+    display: flex;
+}
+
+.cart-card-buttons {
+    display: flex;
+}
+
+.cart-card-price {
+    display: flex;
+}
+
+/* список товаров */
+
+.cart-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.clear-cart-btn{
+    display: flex;
+}
+.cart-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-height: 100px;
+    justify-content: space-between;
+   
+}
+.cart-card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-card-title{
+    margin-left: 20px;
+    width: 200px;
+}
+.cart-card-image{
+    width: 100px;
+}
+.cart-card-image img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.icon-s{
+    padding: 5px 5px 5px 5px;
+    background-color: #A0B1C5;
+    border-radius: 20px;
+    object-fit: cover;
+} 
+.cart-card-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.cart-card-price{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.delete{
+    padding-top: 15px;
+    font-size: 14px;
+    color: #A0B1C5;
+}
+
+.li-link{
+    text-decoration-line: none;
+    color: #36454F;
+}
+.li-link:hover{
+    text-decoration-line: none;
+    /* color: #fff; 
+    color: #2AAA8A;*/
+}
+
+/* Кнопки */
+#checkout-btn{
+    height: 3rem;
+    background: #82E0AA;
+    border-top: solid #82E0AA 1px;
+    border-radius: 5px;
+    width: 100%;
+   
+}
+.no-border{
+    border: none;
+    background-color: inherit;
+}
+
+/*  Пустая корзина*/
+.bg-image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 10px;
+}
+.bg-image img{
+    height: 45vh;
+    object-fit: cover;
+    
+}

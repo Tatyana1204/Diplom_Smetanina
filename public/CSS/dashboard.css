@@ -1,0 +1,119 @@
+/* Colors */
+/* Акцентный C9836D (accent, buttons, success-text) */
+/* Red #C70039  */
+/* Background #eedcc6; */
+/* Card bg #FFF */
+/* Dark #36454F */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Open+Sans&display=swap');
+main {
+  display: flex;
+}
+body {
+  background-color: #eedcc6;
+  
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #eedcc6;
+  }
+
+.dashboard-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.dashboard-navbar-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  color: #36454F;
+  background: #FFF;
+  border-radius: 7px;
+  padding: 5px 8px;
+}
+
+/* Add product form */
+  
+.form-container {
+  margin: auto;
+  width: 100%;
+  padding: 25px;
+  background: #FFF;
+  border-radius: 10px;
+}
+.form-btn {
+  /* width: 400px !important; */
+  height: 3rem;
+  background:  #C9836D;
+  border-top: solid  #C9836D 1px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* List of products */
+.list-container {
+  margin: auto;
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 30px;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 100px;
+  justify-content: space-between;
+}
+.product-card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-card-title{
+  margin-left: 15px;
+  width: 320px;
+}
+.product-card-image{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.update-form-container, .delete-form-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.update-form{
+  width: 50%;
+}
+.no-border{
+  border: none;
+  background-color: inherit;
+  text-decoration: underline;
+}
+.display-none{
+  display: none;
+}
+/* Texts */
+.adding-success-text, .updating-success-text{
+  margin-top: 10px;
+  color: #82E0AA; 
+}
+.adding-error-text, .updating-error-text{
+  margin-top: 10px;
+  color: #C70039;
+}
+.display-none{
+  display: none !important;
+}

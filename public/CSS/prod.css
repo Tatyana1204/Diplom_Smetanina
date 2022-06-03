@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgba(224, 191, 150, 0.541);
+}
+.container-fluid {
+    display: block;
+    padding-top: 50px;
+}
+
+#prod {
+    width: 300px !important;
+    height: 250px !important;
+}
+
+.mumu {
+    text-align: center;
+    margin-right: auto;
+    margin-left: -100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+    color: bisque;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka {
+    color: #C9836D;
+    border-color: #C9836D;
+    width: 300px !important;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.btn1 {
+    margin-bottom: 10px;
+}
+
+.container-goods {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.row2 {
+    display: flex;
+    margin-left: 150px;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card {
+    display: flex;
+    width: 15rem;
+    min-height: 15rem;
+    margin: 10px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.flex{
+    display: flex !important;
+}
+.card-img-top {
+    height: fit-content;
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+}
+.card-text{
+    padding-top: 10px;
+}
+h5{
+    color: #C9836D;
+    padding-top: 20px;
+}
+.card-title {
+    text-align: end;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.li-link {
+    text-decoration-line: none;
+    color: #36454F;
+}
+
+.link:hover {
+    text-decoration-line: none;
+    /* color: #fff; */
+    color: #2AAA8A;
+}

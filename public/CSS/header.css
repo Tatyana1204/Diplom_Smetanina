@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    background-color: #C9836D;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.header .mur {
+    padding-top: 62px !important;
+    margin-right: 400px !important;
+}
+.header .mur-without-margin{
+    padding-top: 62px !important;
+    margin-right: 10px !important;
+}
+.header h1 {
+    padding-left: 50px;
+}
+
+
+.header .dropdown {
+    align-self: center;
+    justify-content: center;
+}
+
+.header .btn {
+    background-color: #C9836D;
+}
+.header a:hover {
+    color: #fed6e3 !important;
+}
+.header a {
+    text-decoration: none !important;
+    color: black !important;
+}
